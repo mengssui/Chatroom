@@ -1,0 +1,71 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BLACK	color.h	13;"	d
+BLINK	color.h	31;"	d
+BLUE	color.h	21;"	d
+BOLD	color.h	29;"	d
+BROWN	color.h	19;"	d
+CHAT_ACK	wechat.h	12;"	d
+CHAT_FIN	wechat.h	13;"	d
+CHAT_HEART	wechat.h	14;"	d
+CHAT_SYN	wechat.h	11;"	d
+CLEAR	color.h	34;"	d
+CLRLINE	color.h	35;"	d
+COMMON	client_discover.h	9;"	d
+CYAN	color.h	25;"	d
+DBG	head.h	43;"	d
+DBG	head.h	45;"	d
+FL_ONLINE	wechat.h	24;"	d
+FL_SYNSENT	wechat.h	23;"	d
+GRAY	color.h	27;"	d
+GREEN	color.h	17;"	d
+HIDE	color.h	33;"	d
+L_BLACK	color.h	14;"	d
+L_BLUE	color.h	22;"	d
+L_CYAN	color.h	26;"	d
+L_GREEN	color.h	18;"	d
+L_PINK	color.h	24;"	d
+L_RED	color.h	16;"	d
+Msg	wechat.h	/^struct Msg {$/;"	s
+NONE	color.h	12;"	d
+PINK	color.h	23;"	d
+RED	color.h	15;"	d
+REVERSE	color.h	32;"	d
+UDP_SERVER_H	udp_server.h	9;"	d
+UNDERLINE	color.h	30;"	d
+User	wechat.h	/^struct User {$/;"	s
+WHITE	color.h	28;"	d
+YELLOW	color.h	20;"	d
+_COLOR_H	color.h	9;"	d
+_COMMON_H	common.h	9;"	d
+_HEAD_H	head.h	8;"	d
+_REACTOR_H	reactor.h	9;"	d
+_TCP_CLIENT_H	tcp_client.h	9;"	d
+_TCP_SERVER_H	tcp_server.h	9;"	d
+_UDP_CLIENT_H	udp_client.h	9;"	d
+_WECHAT_H	wechat.h	9;"	d
+add_event_ptr	reactor.c	/^void add_event_ptr(int epollfd, int fd, int events, struct User *user) {$/;"	f
+add_to_sub_reactor	reactor.c	/^int add_to_sub_reactor(int fd, struct User *user) {$/;"	f
+ans	common.c	/^char ans[512] = {0}; \/\/全局变量$/;"	v
+client_discover	client_discover.c	/^void *client_discover(void* arg) {$/;"	f
+fd	wechat.h	/^    int fd;$/;"	m	struct:User
+flag	wechat.h	/^    int flag; \/\/是否在线$/;"	m	struct:User
+from	wechat.h	/^    char from[20];$/;"	m	struct:Msg
+get_value	common.c	/^char *get_value(const char *path, const char *key) {$/;"	f
+make_block	common.c	/^int make_block(int fd) {$/;"	f
+make_nonblock	common.c	/^int make_nonblock(int fd) {$/;"	f
+msg	wechat.h	/^    char msg[1024];$/;"	m	struct:Msg
+name	wechat.h	/^    char name[20];$/;"	m	struct:User
+socket_connect	tcp_client.c	/^int socket_connect(char* ip, int port) {$/;"	f
+socket_connect_timeout	tcp_client.c	/^int socket_connect_timeout(char* ip, int port, long time_out) {$/;"	f
+socket_create	tcp_server.c	/^int socket_create(int port) {$/;"	f
+socket_create_udp	udp_server.c	/^int socket_create_udp(int port) {$/;"	f
+socket_udp	udp_client.c	/^int socket_udp() {$/;"	f
+to	wechat.h	/^    char to[20];$/;"	m	struct:Msg
+type	wechat.h	/^    int type;$/;"	m	struct:Msg
+udp_accept	udp_server.c	/^int udp_accept(int fd, struct User *user) {$/;"	f
+udp_connect	udp_client.c	/^int udp_connect(struct sockaddr_in *client) {$/;"	f

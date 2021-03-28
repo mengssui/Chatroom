@@ -1,0 +1,107 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALL	makefile	/^ALL=.\/common\/head.h .\/bin\/wechat.o .\/bin\/udp_client.o .\/bin\/udp_server.o .\/bin\/reactor.o .\/bin\/wechat.o .\/bin\/common.o .\/bin\/client_discover.o .\/bin\/heart_beat.o .\/bin\/send_chat.o$/;"	m
+BLACK	common/color.h	13;"	d
+BLINK	common/color.h	31;"	d
+BLUE	common/color.h	21;"	d
+BOLD	common/color.h	29;"	d
+BROWN	common/color.h	19;"	d
+CFLAG	makefile	/^CFLAG=-DDEBUG$/;"	m
+CHAT_ACK	common/wechat.h	14;"	d
+CHAT_FIN	common/wechat.h	15;"	d
+CHAT_HEART	common/wechat.h	16;"	d
+CHAT_MSG	common/wechat.h	17;"	d
+CHAT_PRI	common/wechat.h	18;"	d
+CHAT_SYN	common/wechat.h	13;"	d
+CLEAR	common/color.h	34;"	d
+CLIENT_DISCOVER_H	common/client_discover.h	9;"	d
+CLRLINE	common/color.h	35;"	d
+CYAN	common/color.h	25;"	d
+DBG	common/head.h	47;"	d
+DBG	common/head.h	49;"	d
+FL_ONLINE	common/wechat.h	28;"	d
+FL_SYNSENT	common/wechat.h	27;"	d
+GRAY	common/color.h	27;"	d
+GREEN	common/color.h	17;"	d
+HELP_WIDTH	common/chat_ui.h	12;"	d
+HIDE	common/color.h	33;"	d
+INPUT_HEIGHT	common/chat_ui.h	13;"	d
+L_BLACK	common/color.h	14;"	d
+L_BLUE	common/color.h	22;"	d
+L_CYAN	common/color.h	26;"	d
+L_GREEN	common/color.h	18;"	d
+L_PINK	common/color.h	24;"	d
+L_RED	common/color.h	16;"	d
+MAX	wechat.c	9;"	d	file:
+MAXUSER	common/wechat.h	10;"	d
+MSG_HEIGHT	common/chat_ui.h	11;"	d
+MSG_WIDTH	common/chat_ui.h	10;"	d
+Msg	common/wechat.h	/^struct Msg {$/;"	s
+NONE	common/color.h	12;"	d
+PINK	common/color.h	23;"	d
+RED	common/color.h	15;"	d
+REVERSE	common/color.h	32;"	d
+SEND_CHAT_H	common/send_chat.h	9;"	d
+UDP_SERVER_H	common/udp_server.h	9;"	d
+UNDERLINE	common/color.h	30;"	d
+User	common/wechat.h	/^struct User {$/;"	s
+WHITE	common/color.h	28;"	d
+YELLOW	common/color.h	20;"	d
+_CHAT_UI_H	common/chat_ui.h	9;"	d
+_COLOR_H	common/color.h	9;"	d
+_COMMON_H	common/common.h	9;"	d
+_HEAD_H	common/head.h	8;"	d
+_HEART_BEAT_H	common/heart_beat.h	9;"	d
+_REACTOR_H	common/reactor.h	9;"	d
+_TCP_CLIENT_H	common/tcp_client.h	9;"	d
+_TCP_SERVER_H	common/tcp_server.h	9;"	d
+_UDP_CLIENT_H	common/udp_client.h	9;"	d
+_WECHAT_H	common/wechat.h	9;"	d
+add_event_ptr	common/reactor.c	/^void add_event_ptr(int epollfd, int fd, int events, struct User *user) {$/;"	f
+add_to_sub_reactor	common/reactor.c	/^int add_to_sub_reactor(int fd, struct User *user) {$/;"	f
+ans	common/common.c	/^char ans[512] = {0}; \/\/全局变量，解决返回局部变量的一种方式$/;"	v
+client_discover	common/client_discover.c	/^void *client_discover(void* arg) {$/;"	f
+cnt	common/wechat.h	/^    int cnt;        \/\/发出心跳的次数, 达到10时候删除$/;"	m	struct:User
+config	wechat.c	/^char *config = ".\/chat.conf";$/;"	v
+create_newwin	common/chat_ui.c	/^WINDOW *create_newwin(int width, int height, int startx, int starty) {$/;"	f
+del_from_reactor	common/reactor.c	/^void del_from_reactor(int fd) {$/;"	f
+fd	common/wechat.h	/^    int fd;$/;"	m	struct:User
+flag	common/wechat.h	/^    int flag;       \/\/是否在线，用户状态$/;"	m	struct:User
+from	common/wechat.h	/^    char from[20];$/;"	m	struct:Msg
+get_value	common/common.c	/^char *get_value(const char *path, const char *key) {$/;"	f
+gotoxy	common/chat_ui.c	/^void gotoxy(int x, int y){$/;"	f
+gotoxy_putc	common/chat_ui.c	/^void gotoxy_putc(int x, int y, char c) {$/;"	f
+gotoxy_puts	common/chat_ui.c	/^void gotoxy_puts(int x, int y, char *s) {$/;"	f
+heart_beat	common/heart_beat.c	/^void *heart_beat(void* arg) {$/;"	f
+init_ui	common/chat_ui.c	/^void init_ui() {$/;"	f
+ip	common/wechat.h	/^    char ip[20];$/;"	m	struct:User
+logout	wechat.c	/^void logout(int signum) {$/;"	f
+main	wechat.c	/^int main (int argc, char** argv) {$/;"	f
+make_block	common/common.c	/^int make_block(int fd) {$/;"	f
+make_nonblock	common/common.c	/^int make_nonblock(int fd) { $/;"	f
+msg	common/wechat.h	/^    char msg[1024];$/;"	m	struct:Msg
+msg	wechat.c	/^char msg[512] = {0};$/;"	v
+name	common/wechat.h	/^    char name[20];$/;"	m	struct:User
+name	wechat.c	/^char name[20] = {0};$/;"	v
+port	wechat.c	/^int port = 0;$/;"	v
+print_message	common/chat_ui.c	/^void print_message(WINDOW *win, struct Msg *msg, int type) {$/;"	f
+reactor	common/reactor.c	/^void *reactor(void *arg) {$/;"	f
+send_chat	common/send_chat.c	/^void *send_chat(void *arg) {$/;"	f
+show_help	common/chat_ui.c	/^void show_help(){$/;"	f
+socket_connect	common/tcp_client.c	/^int socket_connect(char* ip, int port) {$/;"	f
+socket_connect_timeout	common/tcp_client.c	/^int socket_connect_timeout(char* ip, int port, long time_out) {$/;"	f
+socket_create	common/tcp_server.c	/^int socket_create(int port) {$/;"	f
+socket_create_udp	common/udp_server.c	/^int socket_create_udp(int port) {$/;"	f
+socket_udp	common/udp_client.c	/^int socket_udp() {$/;"	f
+subfd	wechat.c	/^int subfd; \/\/子反应堆$/;"	v
+to	common/wechat.h	/^    char to[20];$/;"	m	struct:Msg
+type	common/wechat.h	/^    int type;$/;"	m	struct:Msg
+udp_accept	common/udp_server.c	/^int udp_accept(int fd, struct User *user) {$/;"	f
+udp_connect	common/udp_client.c	/^int udp_connect(struct sockaddr_in *client) {$/;"	f
+users	wechat.c	/^struct User *users; \/\/用户数组$/;"	v	typeref:struct:User
+w_gotoxy_putc	common/chat_ui.c	/^void w_gotoxy_putc(WINDOW *win, int x, int y, char c) {$/;"	f
+w_gotoxy_puts	common/chat_ui.c	/^void w_gotoxy_puts(WINDOW *win, int x, int y, char *s) {$/;"	f
